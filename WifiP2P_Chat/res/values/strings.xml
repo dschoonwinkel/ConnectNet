@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">WifiP2P Chat</string>
+    <string name="connect_app">Start WifiP2PApp</string>
+    <string name="conn_state">Connection Status: </string>
+    <string name="send">Send</string>
+    <string name="startup">Start</string>
+    <string name="done_button">Done</string>
+    <string name="server">Server</string>
+    <string name="open_connect_dialog">Open connect dialog</string>
+    <string name="discover">Discover</string>
+    <string name="register">Register</string>
+
+</resources>

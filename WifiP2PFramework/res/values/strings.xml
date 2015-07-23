@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiP2PApp</string>
+    <string name="ip_address">IP Address: </string>
+    <string name="conn_state">Connection Status: </string>
+    <string name="action_state">Action Status: </string>
+    <string name="discover_state">Discover Status: </string>
+    <string name="group_owner">Group Owner: </string>
+    <string name="devices">Devices: </string>
+    <string name="services">Services: </string>
+    
+    <string name="done_button">Done</string>
+    <string name="consumer_button">Consumer</string>
+    <string name="provider_button">Provider</string>
+    
+    <string name="scan_button">Scan</string>
+    <string name="connect_button">Connect</string>
+    <string name="remove_button">Remove</string>
+    
+    <string name="discover_button">Discover</string>
+    <string name="register_button">Register</string>
+    <string name="clear_button">Clear</string>
+    <string name="cache_button">Check Services Cache</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="start_service">Start Service</string>
+    
+    <string name="consumer_state">Consumer</string>
+    <string name="provider_state">Provider</string>
+    
+    <string name="wifi_enabled">Wifi On</string>
+    <string name="wifi_disabled">Wifi Off</string>
+    
+    <string name="server">Server</string>
+    <string name="open_connect_dialog">Open connect dialog</string>
+    <string name="discover">Discover</string>
+    <string name="register">Register</string>
+    <string name="stop">Stop</string>
+    
+
+</resources>

@@ -1,0 +1,23 @@
+mWifiP2PApp:WifiP2PApp[p] "WifiP2PApp"
+mService:P2PConnectorService[p] "P2PConnectorService"
+mServiceReceiver:P2PConnectorReceiver "P2PConnectorReceiver"
+/mCThread:ClientThread "ClientThread"
+mManager:WifiP2PManager[p] "WifiP2PManager"
+/mServiceAdvertiserThread:ServiceAdvertiserThread "ServiceAdvertiserThread"
+
+[c Connection]
+mManager:mService.onDnsSdTextRecordAvailable(params: address)
+mService:mManager.connect(address, GOIntent)
+mManager:mServiceReceiver.onReceive(ConnectionState)
+mServiceReceiver:mService.updateConnState()
+mServiceReceiver:stop
+mService:mWifiP2PApp.updateConnState()
+*1 mService
+If connected successfully:
+*1
+mService:mManager.discoverServices()
+mManager:mService.onDnsSdTextRecordAvailable(params: port)
+mService:mCThread.new
+mCThread:connectToSocket(int port)
+mCThread:sendTestMessage()
+[/c]

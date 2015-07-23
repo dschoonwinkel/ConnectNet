@@ -1,0 +1,128 @@
+12-19 11:57:41.425: V/P2PConnectionService(4155): onCreate
+12-19 11:57:41.435: V/P2PConnectionService(4155): onBind
+12-19 11:57:41.435: V/P2PConnectionService(4155): init
+12-19 11:57:41.445: V/P2PConnectionService(4155): setUpP2PIntentFilter
+12-19 11:57:41.445: V/WifiDirectBroadcastReceiver(4155): WifiDirectBroadcastReceiver constructor
+12-19 11:57:41.455: I/P2PConnectionService(4155): onBind service
+12-19 11:57:41.475: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.STATE_CHANGED
+12-19 11:57:41.475: D/WifiDirectBroadcastReceiver(4155): Wifi P2P enabled
+12-19 11:57:41.475: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+12-19 11:57:41.475: I/WifiDirectBroadcastReceiver(4155): Connection changed
+12-19 11:57:41.485: D/WifiDirectBroadcastReceiver(4155): one or more peers disconnected
+12-19 11:57:41.495: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.THIS_DEVICE_CHANGED
+12-19 11:57:41.705: V/P2PConnectionService(4155): getStates
+12-19 11:58:24.425: V/WifiP2PReceiver(4155): WifiP2PReceiver constructor
+12-19 11:58:24.425: V/WifiP2PApp(4155): setUpIntentFilter
+12-19 11:58:24.435: V/WifiP2PApp(4155): updateGroupOwner
+12-19 11:58:24.435: V/WifiP2PApp(4155): init
+12-19 11:58:24.435: V/WifiP2PApp(4155): onCreate
+12-19 11:58:24.435: V/WifiP2PApp(4155): onResume
+12-19 11:58:24.435: V/GenericP2PBridge(4155): init
+12-19 11:58:24.435: W/ContextImpl(4155): Implicit intents with startService are not safe: Intent { act=meesters.wifip2p.router.P2PConnectorService } android.content.ContextWrapper.bindService:517 meesters.wifip2p.app.GenericP2PBridge.init:31 meesters.wifip2p.app.WifiP2PApp.onResume:177 
+12-19 11:58:24.445: V/GenericP2PBridge(4155): Service connected
+12-19 11:58:24.445: V/P2PConnectionService(4155): getStates
+12-19 11:58:24.445: I/GenericP2PBridge(4155): gettingStates
+12-19 11:58:24.495: D/libEGL(4155): loaded /system/lib/egl/libEGL_tegra.so
+12-19 11:58:24.505: D/libEGL(4155): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+12-19 11:58:24.525: D/libEGL(4155): loaded /system/lib/egl/libGLESv2_tegra.so
+12-19 11:58:24.555: D/OpenGLRenderer(4155): Enabling debug mode 0
+12-19 11:58:24.565: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_GroupOwner
+12-19 11:58:24.565: V/WifiP2PApp(4155): updateGroupOwner
+12-19 11:58:24.565: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_Peerdisconnected
+12-19 11:58:24.575: V/WifiP2PApp(4155): updateConnState
+12-19 11:58:25.835: V/GenericP2PBridge(4155): getPeerList
+12-19 11:58:25.835: V/P2PConnectionService(4155): Stub: getPeerList
+12-19 11:58:25.845: I/P2PConnectionService(4155): getPeerList()
+12-19 11:58:25.845: V/WifiP2PApp(4155): onScanButton
+12-19 11:58:25.855: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_StartScan
+12-19 11:58:25.855: V/WifiP2PApp(4155): updateActionState
+12-19 11:58:25.865: D/ActionListener(4155): Peer discovery started successful
+12-19 11:58:25.865: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.DISCOVERY_STATE_CHANGE
+12-19 11:58:25.865: I/WifiDirectBroadcastReceiver(4155): P2P Discovery state changed
+12-19 11:58:25.865: I/WifiDirectBroadcastReceiver(4155): Discovery started
+12-19 11:58:25.885: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_DiscoveryStarted
+12-19 11:58:25.885: V/WifiP2PApp(4155): updateDiscoverState
+12-19 11:58:30.925: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:30.925: I/WifiDirectBroadcastReceiver(4155): Peers Changed
+12-19 11:58:30.935: V/P2PConnectionService(4155): onPeersAvailable
+12-19 11:58:30.935: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:30.935: V/WifiP2PApp(4155): updateDevicesView
+12-19 11:58:32.955: V/GenericP2PBridge(4155): connectPeer
+12-19 11:58:32.955: V/P2PConnectionService(4155): Stub: connectPeer
+12-19 11:58:32.955: V/WifiP2PApp(4155): onConnectButton
+12-19 11:58:32.955: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_Connecting
+12-19 11:58:32.955: V/WifiP2PApp(4155): updateConnState
+12-19 11:58:32.975: D/ActionListener(4155): Connect to peer successful
+12-19 11:58:32.975: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:32.975: I/WifiDirectBroadcastReceiver(4155): Peers Changed
+12-19 11:58:32.975: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.DISCOVERY_STATE_CHANGE
+12-19 11:58:32.975: I/WifiDirectBroadcastReceiver(4155): P2P Discovery state changed
+12-19 11:58:32.975: I/WifiDirectBroadcastReceiver(4155): Discovery stopped
+12-19 11:58:32.975: V/P2PConnectionService(4155): onPeersAvailable
+12-19 11:58:32.975: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_DiscoveryStopped
+12-19 11:58:32.975: V/WifiP2PApp(4155): updateDiscoverState
+12-19 11:58:32.975: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:32.975: V/WifiP2PApp(4155): updateDevicesView
+12-19 11:58:39.565: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:39.565: I/WifiDirectBroadcastReceiver(4155): Peers Changed
+12-19 11:58:39.575: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.THIS_DEVICE_CHANGED
+12-19 11:58:39.575: V/P2PConnectionService(4155): onPeersAvailable
+12-19 11:58:39.575: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:39.575: V/WifiP2PApp(4155): updateDevicesView
+12-19 11:58:40.605: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+12-19 11:58:40.605: I/WifiDirectBroadcastReceiver(4155): Connection changed
+12-19 11:58:40.605: D/WifiDirectBroadcastReceiver(4155): one or more peers connected
+12-19 11:58:40.605: V/P2PConnectionService(4155): onConnectionInfoAvailable
+12-19 11:58:40.605: V/P2PConnectionService(4155): updateGroupOwner
+12-19 11:58:40.605: D/P2PConnectionService(4155): groupFormed: true isGroupOwner: false groupOwnerAddress: /192.168.49.1
+12-19 11:58:40.605: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_Peerconnected
+12-19 11:58:40.605: V/WifiP2PApp(4155): updateConnState
+12-19 11:58:40.625: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_GroupOwner
+12-19 11:58:40.625: V/WifiP2PApp(4155): updateGroupOwner
+12-19 11:58:42.355: V/GenericP2PBridge(4155): startDiscovery
+12-19 11:58:42.355: V/P2PConnectionService(4155): Stub: startDiscovery
+12-19 11:58:42.355: V/WifiP2PApp(4155): onDiscoverButton
+12-19 11:58:42.355: D/ActionListener(4155): Service request added successful
+12-19 11:58:42.365: D/ActionListener(4155): Discovery started successful
+12-19 11:58:43.675: V/WifiDirectBroadcastReceiver(4155): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:43.675: I/WifiDirectBroadcastReceiver(4155): Peers Changed
+12-19 11:58:43.675: V/P2PConnectionService(4155): onPeersAvailable
+12-19 11:58:43.675: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:43.675: V/WifiP2PApp(4155): updateDevicesView
+12-19 11:58:44.715: V/P2PConnectionService(4155): onDnsSdTxtRecordAvailable
+12-19 11:58:44.715: D/P2PConnectionService(4155): Service p2pchat._chat._tcp.local. available from SamsungPocketNeo with {PORTNUM=45915}
+12-19 11:58:44.725: V/ClientThread(4155): ClientThread constructor
+12-19 11:58:44.725: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_UpdateServicesView
+12-19 11:58:44.725: V/WifiP2PApp(4155): updateServicesView
+12-19 11:58:44.735: V/P2PConnectionService(4155): onDnsSdServiceAvailable
+12-19 11:58:44.735: D/P2PConnectionService(4155): Service P2PChat available from SamsungPocketNeo with _chat._tcp.local.
+12-19 11:58:44.735: V/ClientThread(4155): run
+12-19 11:58:44.795: V/WifiP2PReceiver(4155): onReceive: P2PConnectorService_UpdateServicesView
+12-19 11:58:44.795: V/WifiP2PApp(4155): updateServicesView
+12-19 11:58:45.155: I/ClientThread(4155): Client connected
+12-19 11:58:45.155: V/P2PConnectionService(4155): onClientConnected
+12-19 11:58:45.155: V/ClientThread(4155): setBytesReceiver
+12-19 11:58:45.155: V/ClientThread(4155): getByteSender
+12-19 11:58:45.155: I/P2PConnectionService(4155): onClientConnected
+12-19 11:58:45.155: V/SocketSendDelegate(4155): SocketSendDelegate constructor
+12-19 11:58:45.155: V/SocketReceiveDelegate(4155): SocketReceiverDelegate constructor
+12-19 11:58:45.155: V/SocketSendDelegate(4155): sendBytes: 15 bytes
+12-19 11:58:45.165: V/SocketReceiveDelegate(4155): receiveLoop
+12-19 11:58:50.635: V/WifiP2PApp(4155): onDoneButton
+12-19 11:58:50.645: V/WifiP2PApp(4155): onPause
+12-19 11:58:50.645: V/GenericP2PBridge(4155): disconnect
+12-19 11:58:50.655: V/P2PConnectionService(4155): getStates
+12-19 11:58:50.665: V/P2PConnectionService(4155): getStates
+12-19 11:58:51.055: V/WifiP2PApp(4155): onDestroy
+12-19 11:58:51.055: I/WifiP2PApp(4155): onDestroy
+12-19 11:58:56.045: V/WifiDirectBroadcastReceiver(4155): onReceive: P2PConnectorService_BytesSend
+12-19 11:58:56.045: I/WifiDirectBroadcastReceiver(4155): on BYTES_SEND
+12-19 11:58:56.045: V/P2PConnectionService(4155): sendBytes
+12-19 11:58:56.045: V/ClientThread(4155): sendBytesNexus 7: hello
+12-19 11:58:56.045: V/SocketSendDelegate(4155): sendBytes: 14 bytes
+12-19 11:59:13.075: V/WifiDirectBroadcastReceiver(4155): onReceive: P2PConnectorService_BytesSend
+12-19 11:59:13.075: I/WifiDirectBroadcastReceiver(4155): on BYTES_SEND
+12-19 11:59:13.075: V/P2PConnectionService(4155): sendBytes
+12-19 11:59:13.075: V/ClientThread(4155): sendBytesNexus 7: hello again
+12-19 11:59:13.075: V/SocketSendDelegate(4155): sendBytes: 20 bytes
+12-19 12:03:13.505: V/P2PConnectionService(4155): onUnbind

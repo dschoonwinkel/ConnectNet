@@ -1,0 +1,21 @@
+mWifiP2PApp:WifiP2PApp[t] "WifiP2PApp"
+/mWifiP2PReceiver:WifiP2PReceiver "WifiP2PReceiver"
+/mWifiP2PBridge:WifiP2PBridge "WifiP2PBridge"
+mService:P2PConnectorService[p] "P2PConnectorService"
+/mServiceReceiver:P2PConnectorReceiver "P2PConnectorReceiver"
+/mSThread:ServerThread "ServerThread"
+mManager:WifiP2PManager[p] "WifiP2PManager"
+/mServiceAdvertiserThread:ServiceAdvertiserThread "ServiceAdvertiserThread"
+
+mService:mServiceReceiver.new
+mWifiP2PApp:mWifiP2PReceiver.new
+mWifiP2PApp:mWifiP2PBridge.new
+mWifiP2PBridge:mService.bindService()
+*1 mWifiP2PApp
+getStates() - see P2PChat
+*1
+mWifiP2PApp:mWifiP2PBridge.getPeerList()
+mWifiP2PBridge:mService.getPeerList()
+mService:mManager.discoverServices()
+mWifiP2PApp:_
+

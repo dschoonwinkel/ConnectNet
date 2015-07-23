@@ -1,0 +1,162 @@
+12-19 11:58:05.172: V/P2PConnectionService(5003): onCreate
+12-19 11:58:05.172: V/P2PConnectionService(5003): onBind
+12-19 11:58:05.172: V/P2PConnectionService(5003): init
+12-19 11:58:05.222: V/P2PConnectionService(5003): setUpP2PIntentFilter
+12-19 11:58:05.222: V/WifiDirectBroadcastReceiver(5003): WifiDirectBroadcastReceiver constructor
+12-19 11:58:05.572: I/P2PConnectionService(5003): onBind service
+12-19 11:58:06.243: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.STATE_CHANGED
+12-19 11:58:06.243: D/WifiDirectBroadcastReceiver(5003): Wifi P2P enabled
+12-19 11:58:06.243: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+12-19 11:58:06.243: I/WifiDirectBroadcastReceiver(5003): Connection changed
+12-19 11:58:06.273: D/WifiDirectBroadcastReceiver(5003): one or more peers disconnected
+12-19 11:58:06.323: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.THIS_DEVICE_CHANGED
+12-19 11:58:06.333: V/P2PConnectionService(5003): getStates
+12-19 11:58:19.736: V/WifiP2PReceiver(5003): WifiP2PReceiver constructor
+12-19 11:58:19.736: V/WifiP2PApp(5003): setUpIntentFilter
+12-19 11:58:19.736: V/WifiP2PApp(5003): updateGroupOwner
+12-19 11:58:19.746: V/WifiP2PApp(5003): init
+12-19 11:58:19.746: V/WifiP2PApp(5003): onCreate
+12-19 11:58:19.746: V/WifiP2PApp(5003): onResume
+12-19 11:58:19.746: V/GenericP2PBridge(5003): init
+12-19 11:58:19.786: V/GenericP2PBridge(5003): Service connected
+12-19 11:58:19.786: V/P2PConnectionService(5003): getStates
+12-19 11:58:19.786: I/GenericP2PBridge(5003): gettingStates
+12-19 11:58:19.886: D/libEGL(5003): loaded /system/lib/egl/libGLES_rhea.so
+12-19 11:58:19.946: D/BRCM_EGL(5003): eglCreateContext() config: 19 context: 0x46af8008, VC context 1, Thread 5003
+12-19 11:58:19.946: D/BRCM_EGL(5003): eglCreateWindowSurface() surface: 0x400397a0, VC surface: 1, Thread: 5003
+12-19 11:58:19.946: D/BRCM_EGL(5003): eglMakeCurrent(0x46af8008, 0x400397a0, 0x400397a0) Thread: 5003
+12-19 11:58:19.966: D/OpenGLRenderer(5003): Enabling debug mode 0
+12-19 11:58:19.976: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_GroupOwner
+12-19 11:58:19.976: V/WifiP2PApp(5003): updateGroupOwner
+12-19 11:58:19.976: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_Peerdisconnected
+12-19 11:58:19.976: V/WifiP2PApp(5003): updateConnState
+12-19 11:58:28.014: V/GenericP2PBridge(5003): getPeerList
+12-19 11:58:28.014: V/P2PConnectionService(5003): Stub: getPeerList
+12-19 11:58:28.104: I/P2PConnectionService(5003): getPeerList()
+12-19 11:58:28.104: V/WifiP2PApp(5003): onScanButton
+12-19 11:58:28.114: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_StartScan
+12-19 11:58:28.114: V/WifiP2PApp(5003): updateActionState
+12-19 11:58:28.274: D/ActionListener(5003): Peer discovery started successful
+12-19 11:58:28.284: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.DISCOVERY_STATE_CHANGE
+12-19 11:58:28.284: I/WifiDirectBroadcastReceiver(5003): P2P Discovery state changed
+12-19 11:58:28.284: I/WifiDirectBroadcastReceiver(5003): Discovery started
+12-19 11:58:28.284: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_DiscoveryStarted
+12-19 11:58:28.284: V/WifiP2PApp(5003): updateDiscoverState
+12-19 11:58:31.257: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:31.257: I/WifiDirectBroadcastReceiver(5003): Peers Changed
+12-19 11:58:31.287: V/P2PConnectionService(5003): onPeersAvailable
+12-19 11:58:31.297: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:31.297: V/WifiP2PApp(5003): updateDevicesView
+12-19 11:58:36.903: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:36.903: I/WifiDirectBroadcastReceiver(5003): Peers Changed
+12-19 11:58:37.003: V/P2PConnectionService(5003): onPeersAvailable
+12-19 11:58:37.003: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:37.013: V/WifiP2PApp(5003): updateDevicesView
+12-19 11:58:39.615: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.THIS_DEVICE_CHANGED
+12-19 11:58:39.645: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+12-19 11:58:39.655: I/WifiDirectBroadcastReceiver(5003): Connection changed
+12-19 11:58:39.695: D/WifiDirectBroadcastReceiver(5003): one or more peers connected
+12-19 11:58:39.725: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_Peerconnected
+12-19 11:58:39.725: V/WifiP2PApp(5003): updateConnState
+12-19 11:58:39.765: V/WifiDirectBroadcastReceiver(5003): onReceive: android.net.wifi.p2p.PEERS_CHANGED
+12-19 11:58:39.765: I/WifiDirectBroadcastReceiver(5003): Peers Changed
+12-19 11:58:39.775: V/P2PConnectionService(5003): onConnectionInfoAvailable
+12-19 11:58:39.825: V/P2PConnectionService(5003): updateGroupOwner
+12-19 11:58:39.886: D/P2PConnectionService(5003): Starting server Thread as GO
+12-19 11:58:40.046: V/ServerThread(5003): ServerThread constructor
+12-19 11:58:40.106: V/ServerThread(5003): run
+12-19 11:58:40.106: D/P2PConnectionService(5003): groupFormed: trueisGroupOwner: truegroupOwnerAddress: /192.168.49.1
+12-19 11:58:40.106: V/P2PConnectionService(5003): onPeersAvailable
+12-19 11:58:40.116: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_GroupOwner
+12-19 11:58:40.126: V/WifiP2PApp(5003): updateGroupOwner
+12-19 11:58:40.136: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_PeerlistAvailable
+12-19 11:58:40.136: V/WifiP2PApp(5003): updateDevicesView
+12-19 11:58:40.206: V/P2PConnectionService(5003): onServerSocketConnected
+12-19 11:58:40.206: V/ServerThread(5003): getSSocket
+12-19 11:58:40.206: V/ServiceAdvertiserThread(5003): ServiceAdvertiserThread constructor
+12-19 11:58:40.256: V/ServiceAdvertiserThread(5003): run
+12-19 11:58:40.396: D/ActionListener(5003): Start service: P2PChat successful
+12-19 11:58:40.406: I/ServiceAdvertiserThread(5003): ServiceAdvertiser finished
+12-19 11:58:45.141: V/P2PConnectionService(5003): onSocketConnected
+12-19 11:58:45.141: V/ServerThread(5003): setByteReceiver
+12-19 11:58:45.141: V/ServerThread(5003): getByteSender
+12-19 11:58:45.141: I/P2PConnectionService(5003): onSocketConnected
+12-19 11:58:45.141: V/SocketSendDelegate(5003): SocketSendDelegate constructor
+12-19 11:58:45.141: V/SocketReceiveDelegate(5003): SocketReceiverDelegate constructor
+12-19 11:58:45.141: V/SocketReceiveDelegate(5003): receiveLoop
+12-19 11:58:45.141: I/SocketReceiveDelegate(5003): Number of bytes available15
+12-19 11:58:45.141: V/P2PConnectionService(5003): receiveBytes
+12-19 11:58:45.141: V/WifiP2PReceiver(5003): onReceive: P2PConnectorService_BytesReceived
+12-19 11:58:45.141: V/WifiP2PApp(5003): updateServicesView
+12-19 11:58:45.251: V/SocketReceiveDelegate(5003): receiveLoop
+12-19 11:58:48.464: V/WifiP2PApp(5003): onDoneButton
+12-19 11:58:48.534: V/WifiP2PApp(5003): onPause
+12-19 11:58:48.534: V/GenericP2PBridge(5003): disconnect
+12-19 11:58:48.594: V/P2PConnectionService(5003): getStates
+12-19 11:58:48.674: V/P2PConnectionService(5003): getStates
+12-19 11:58:48.784: D/BRCM_EGL(5003): eglMakeCurrent(NULL) Thread: 5003
+12-19 11:58:48.784: D/BRCM_EGL(5003): eglDestroySurface() surface: 0x400397a0, android window 0x46af6f78, Thread: 5003
+12-19 11:58:49.175: V/WifiP2PApp(5003): onDestroy
+12-19 11:58:49.175: I/WifiP2PApp(5003): onDestroy
+12-19 11:58:49.205: D/BRCM_EGL(5003): eglMakeCurrent(0x46af8008, 0x47c63ff8, 0x47c63ff8) Thread: 5003
+12-19 11:58:49.205: D/BRCM_EGL(5003): eglMakeCurrent(NULL) Thread: 5003
+12-19 11:58:56.141: V/SocketReceiveDelegate(5003): receiveLoop
+12-19 11:58:56.141: I/SocketReceiveDelegate(5003): Number of bytes available13
+12-19 11:58:56.141: V/P2PConnectionService(5003): receiveBytes
+12-19 11:58:56.241: V/SocketReceiveDelegate(5003): receiveLoop
+12-19 11:59:13.408: V/SocketReceiveDelegate(5003): receiveLoop
+12-19 11:59:13.408: I/SocketReceiveDelegate(5003): Number of bytes available19
+12-19 11:59:13.408: V/P2PConnectionService(5003): receiveBytes
+12-19 11:59:13.518: V/SocketReceiveDelegate(5003): receiveLoop
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x47c962f8 deleted, size = 104
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x40feac80 deleted, size = 112
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x46aad588 deleted, size = 136
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x46af5828 deleted, size = 136
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x40fd5390 deleted, size = 136
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x4813b740 deleted, size = 136
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x46af6728 deleted, size = 144
+12-19 12:00:36.029: D/TextLayoutCache(5003): Cache value 0x41024360 deleted, size = 144
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af5d98 deleted, size = 152
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x4813bf08 deleted, size = 152
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af5970 deleted, size = 160
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x4813baf0 deleted, size = 160
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af61f0 deleted, size = 168
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40ef57c0 deleted, size = 168
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af63c0 deleted, size = 168
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af6550 deleted, size = 168
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x4104daa0 deleted, size = 168
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x4104de88 deleted, size = 168
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af6898 deleted, size = 176
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x41024888 deleted, size = 176
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c63800 deleted, size = 184
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40ef2b28 deleted, size = 184
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40fd6108 deleted, size = 184
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x41041608 deleted, size = 216
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40fd5ca0 deleted, size = 216
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c97cf8 deleted, size = 232
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40f52750 deleted, size = 232
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c62010 deleted, size = 232
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c97eb0 deleted, size = 232
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40fd5fe8 deleted, size = 232
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c63188 deleted, size = 232
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46af5380 deleted, size = 240
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40fd5908 deleted, size = 240
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x46aadb38 deleted, size = 248
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c97b08 deleted, size = 272
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c67330 deleted, size = 272
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x48164458 deleted, size = 328
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x481647c8 deleted, size = 328
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x45090558 deleted, size = 352
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x40fd5780 deleted, size = 352
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c63580 deleted, size = 368
+12-19 12:00:36.039: D/TextLayoutCache(5003): Cache value 0x47c63930 deleted, size = 368
+12-19 12:00:36.049: D/TextLayoutCache(5003): Cache value 0x47c93920 deleted, size = 440
+12-19 12:00:36.049: D/TextLayoutCache(5003): Cache value 0x47c96120 deleted, size = 440
+12-19 12:00:36.049: D/TextLayoutCache(5003): Cache value 0x47c94b10 deleted, size = 448
+12-19 12:00:36.049: D/dalvikvm(5003): WAIT_FOR_CONCURRENT_GC blocked 0ms
+12-19 12:00:36.099: D/dalvikvm(5003): GC_EXPLICIT freed 156K, 11% free 6926K/7751K, paused 6ms+3ms, total 49ms
+12-19 12:01:41.333: D/dalvikvm(5003): WAIT_FOR_CONCURRENT_GC blocked 0ms
+12-19 12:01:41.353: D/dalvikvm(5003): GC_EXPLICIT freed 91K, 12% free 6835K/7751K, paused 2ms+2ms, total 25ms
+12-19 12:02:09.900: V/P2PConnectionService(5003): onUnbind
+12-19 12:02:10.211: D/BRCM_EGL(5003): eglMakeCurrent(0x46af8008, 0x47c63ff8, 0x47c63ff8) Thread: 5003
+12-19 12:02:10.221: D/BRCM_EGL(5003): eglMakeCurrent(NULL) Thread: 5003

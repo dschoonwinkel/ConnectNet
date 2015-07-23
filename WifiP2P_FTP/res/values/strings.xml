@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiP2P_FTP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="host_ip_address_text">Host IP Address</string>
+    <string name="port_num_text">Port number</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="port_num_hint">2121</string>
+    <string name="host_ip_hint">127.0.0.1</string>
+    <string name="refresh">Refresh</string>
+    <string name="status_string">Status:</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Log In</string>
+    <string name="cancel">Cancel</string>
+    <string name="server">Server</string>
+    <string name="open_connect_dialog">Open connect dialog</string>
+    <string name="discover">Discover</string>
+    <string name="register">Register</string>
+    <string name="run_test_string">Run Test</string>
+    <string name="ip_address_string">IP</string>
+    <string name="default_ip_address_string">10.10.11.101</string>
+    <string name="default_port_number_string">2121</string>
+
+</resources>

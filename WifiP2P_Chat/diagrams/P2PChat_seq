@@ -1,0 +1,58 @@
+Chat:ChatActivity[p] "ChatApp"
+/mReceiver:WifiP2PChatReceiver "WifiP2PChatReceiver"
+/mBridge:P2PChatBridge "P2PChatBridge"
+mService:P2PConnectorService[p] "P2PConnectorService"
+
+[c Setup]
+Chat:mReceiver.new
+Chat:mBridge.new
+mReceiver[0,0]:stop
+mBridge:mService.bindService()
+mBridge[0,1]:stop
+Chat:_
+Chat:mBridge.getStates()
+mBridge:mService.getStates()
+Chat:_
+#Placeholders, to give the illusion of time passing
+mBridge[0,2]:stop
+mService:
+mService:
+Chat:_
+mService:mReceiver.sendBroadcast()
+mReceiver:Chat.updateConnStates()
+mReceiver[0,3]:stop
+Chat:
+Chat:
+mService:_
+Chat:mBridge.registerChatService()
+mBridge:mService.registerChatService()
+mBridge[0,4]:stop
+[/c]
+[c:Connection]
+Chat:
+*1 Chat
+See WifiP2PApp_seq
+*1
+[/c]
+[c Interaction]
+*2 Chat
+Sending message:
+*2
+Chat:mBridge.sendMessage(String msg)
+mBridge:mService.sendBroadcast(Message)&
+mBridge[0,5]:stop
+Chat:
+Chat:
+Chat:
+
+*2 mService
+Receiving reply:
+*2
+mService:sendBytes(P2PMessage)
+mService:mReceiver.sendBroadcast(Message)
+mReceiver:Chat.onReceiveMessage(Message)
+[/c]
+
+
+
+

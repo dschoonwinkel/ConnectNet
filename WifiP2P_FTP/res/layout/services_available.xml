@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/services_list"
+        android:layout_width="400dp"
+        android:layout_height="200dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/discover_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/services_list"
+        android:layout_centerVertical="true"
+        android:text="@string/discover" />
+
+    <Button
+        android:id="@+id/register_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/open_connect_dialog"
+        android:layout_toRightOf="@+id/discover_services"
+        android:text="@string/register" />
+    
+    <Button
+        android:id="@+id/open_connect_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/discover_services"
+        android:text="@string/open_connect_dialog" />
+
+    <CheckBox
+        android:id="@+id/server_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/register_service"
+        android:layout_alignBottom="@+id/register_service"
+        android:layout_toRightOf="@+id/open_connect_dialog"
+        android:text="@string/server" />
+
+</RelativeLayout>

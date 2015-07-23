@@ -1,0 +1,37 @@
+mWifiP2PApp:WifiP2PApp[p] "WifiP2PApp"
+mService:P2PConnectorService[p] "P2PConnectorService"
+mServiceReceiver:P2PConnectorReceiver "P2PConnectorReceiver"
+/mServiceAdThread:ServiceAdvertiserThread[tx] "ServiceAdThread"
+/mSThread:ServerThread "ServerThread"
+mManager:WifiP2PManager[p] "WifiP2PManager"
+
+[c Connection]
+mWifiP2PApp:mService.changeRole(Consumer)
+mService:onRoleChange(Consumer)
+mService:mServiceAdThread.new
+mServiceAdThread:registerService(Consumer)
+mServiceAdThread[0,0]:stop
+
+*1 mManager
+Once another 
+device connects 
+to this device
+*1
+mManager:mServiceReceiver.onReceive(ConnectionState)
+mServiceReceiver:mService.updateConnState()
+mServiceReceiver[0,1]:stop
+mService:mWifiP2PApp.updateConnState()
+mService:
+mManager:mService.onConnectionInfoAvailable(params)
+mService:mSThread.new
+mSThread:startServerSocket()
+mSThread:mService.onServerSocketConnected()
+mService:mServiceAdThread.
+mServiceAdThread:registerService(Consumer, portnum)
+mServiceAdThread[0,3]:stop
+*2 mSThread
+Client connects over TCP
+*2
+mSThread:accept()
+mSThread:replyToTestMessage()
+[/c]

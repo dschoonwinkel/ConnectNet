@@ -1,0 +1,82 @@
+12-19 11:58:02.699: V/ChatByAidlActivity(4988): onCreate
+12-19 11:58:04.191: D/AbsListView(4988): Get MotionRecognitionManager
+12-19 11:58:04.261: V/P2PChatBridge(4988): P2PChatBridge constructor
+12-19 11:58:04.261: V/P2PChatBridge(4988): init
+12-19 11:58:04.431: V/ChatByAidlActivity(4988): setUpIntentFilter
+12-19 11:58:04.431: V/ChatByAidlActivity(4988): onResume
+12-19 11:58:05.072: V/P2PChatBridge(4988): getStates
+12-19 11:58:05.372: D/libEGL(4988): loaded /system/lib/egl/libGLES_rhea.so
+12-19 11:58:05.422: D/BRCM_EGL(4988): eglCreateContext() config: 19 context: 0x46aac7f0, VC context 1, Thread 4988
+12-19 11:58:05.432: D/BRCM_EGL(4988): eglCreateWindowSurface() surface: 0x46aadbb8, VC surface: 1, Thread: 4988
+12-19 11:58:05.432: D/BRCM_EGL(4988): eglMakeCurrent(0x46aac7f0, 0x46aadbb8, 0x46aadbb8) Thread: 4988
+12-19 11:58:05.442: D/OpenGLRenderer(4988): Enabling debug mode 0
+12-19 11:58:06.333: V/P2PChatBridge(4988): Service connected
+12-19 11:58:06.343: I/P2PChatBridge(4988): gettingStates
+12-19 11:58:06.513: V/WifiP2PChatReceiver(4988): onReceive: P2PConnectorService_Peerdisconnected
+12-19 11:58:06.513: V/ChatByAidlActivity(4988): updateConnState
+12-19 11:58:06.523: V/WifiP2PChatReceiver(4988): onReceive: P2PConnectorService_Peerdisconnected
+12-19 11:58:06.523: V/ChatByAidlActivity(4988): updateConnState
+12-19 11:58:07.974: E/SpannableStringBuilder(4988): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+12-19 11:58:07.974: E/SpannableStringBuilder(4988): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+12-19 11:58:08.205: E/SpannableStringBuilder(4988): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+12-19 11:58:08.205: E/SpannableStringBuilder(4988): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+12-19 11:58:18.915: V/ChatByAidlActivity(4988): onWifiP2PApp
+12-19 11:58:18.915: I/ChatByAidlActivity(4988): Starting activity for result
+12-19 11:58:19.235: V/ChatByAidlActivity(4988): onPause
+12-19 11:58:19.365: D/BRCM_EGL(4988): eglMakeCurrent(0x46aac7f0, 0x47c67c40, 0x47c67c40) Thread: 4988
+12-19 11:58:19.365: D/BRCM_EGL(4988): eglMakeCurrent(NULL) Thread: 4988
+12-19 11:58:19.386: D/BRCM_EGL(4988): eglMakeCurrent(0x46aac7f0, 0x46aadbb8, 0x46aadbb8) Thread: 4988
+12-19 11:58:20.867: D/BRCM_EGL(4988): eglMakeCurrent(NULL) Thread: 4988
+12-19 11:58:20.887: D/BRCM_EGL(4988): eglDestroySurface() surface: 0x46aadbb8, android window 0x47b77730, Thread: 4988
+12-19 11:58:21.558: W/IInputConnectionWrapper(4988): showStatusIcon on inactive InputConnection
+12-19 11:58:48.594: V/ChatByAidlActivity(4988): onActivityResult
+12-19 11:58:48.594: I/ChatByAidlActivity(4988): Success
+12-19 11:58:48.594: V/P2PChatBridge(4988): getStates
+12-19 11:58:48.674: V/ChatByAidlActivity(4988): onResume
+12-19 11:58:48.674: V/P2PChatBridge(4988): getStates
+12-19 11:58:48.724: D/BRCM_EGL(4988): eglCreateWindowSurface() surface: 0x46a7ef98, VC surface: 3, Thread: 4988
+12-19 11:58:48.724: D/BRCM_EGL(4988): eglMakeCurrent(0x46aac7f0, 0x46a7ef98, 0x46a7ef98) Thread: 4988
+12-19 11:58:48.734: V/WifiP2PChatReceiver(4988): onReceive: P2PConnectorService_Peerconnected
+12-19 11:58:48.734: V/ChatByAidlActivity(4988): updateConnState
+12-19 11:58:48.924: E/SpannableStringBuilder(4988): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+12-19 11:58:48.924: E/SpannableStringBuilder(4988): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+12-19 11:58:56.141: V/WifiP2PChatReceiver(4988): onReceive: P2PConnectorService_BytesReceived
+12-19 11:58:56.141: I/WifiP2PChatReceiver(4988): receivedMsg: exus 7: hello
+12-19 11:58:56.141: V/ChatByAidlActivity(4988): onReceiveMsg
+12-19 11:59:13.408: V/WifiP2PChatReceiver(4988): onReceive: P2PConnectorService_BytesReceived
+12-19 11:59:13.408: I/WifiP2PChatReceiver(4988): receivedMsg: exus 7: hello again
+12-19 11:59:13.408: V/ChatByAidlActivity(4988): onReceiveMsg
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40feac80 deleted, size = 112
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x47b770c0 deleted, size = 136
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x47b772a8 deleted, size = 136
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40ef4160 deleted, size = 136
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40ef4eb0 deleted, size = 136
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x47c67798 deleted, size = 176
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x4104df38 deleted, size = 200
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x46af9b40 deleted, size = 200
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x4100b628 deleted, size = 200
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x46a7ffe8 deleted, size = 208
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x4100fdf8 deleted, size = 208
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x47b76110 deleted, size = 232
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40fd6a58 deleted, size = 232
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x47b76590 deleted, size = 248
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40fd6ed8 deleted, size = 248
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40fa2c08 deleted, size = 256
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x46aff9b8 deleted, size = 256
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x40fa2ab0 deleted, size = 328
+12-19 12:00:31.034: D/TextLayoutCache(4988): Cache value 0x46affb20 deleted, size = 352
+12-19 12:00:31.044: D/dalvikvm(4988): WAIT_FOR_CONCURRENT_GC blocked 0ms
+12-19 12:00:31.074: D/dalvikvm(4988): GC_EXPLICIT freed 125K, 11% free 6888K/7687K, paused 5ms+2ms, total 34ms
+12-19 12:01:36.328: D/dalvikvm(4988): WAIT_FOR_CONCURRENT_GC blocked 0ms
+12-19 12:01:36.348: D/dalvikvm(4988): GC_EXPLICIT freed 10K, 11% free 6882K/7687K, paused 2ms+2ms, total 24ms
+12-19 12:02:09.900: V/ChatByAidlActivity(4988): onDoneButton
+12-19 12:02:09.900: V/P2PChatBridge(4988): disconnect
+12-19 12:02:09.960: V/ChatByAidlActivity(4988): onPause
+12-19 12:02:10.251: W/IInputConnectionWrapper(4988): showStatusIcon on inactive InputConnection
+12-19 12:02:10.411: D/BRCM_EGL(4988): eglMakeCurrent(NULL) Thread: 4988
+12-19 12:02:10.411: D/BRCM_EGL(4988): eglDestroySurface() surface: 0x46a7ef98, android window 0x47b776d8, Thread: 4988
+12-19 12:02:10.881: D/BRCM_EGL(4988): eglMakeCurrent(0x46aac7f0, 0x47c67c40, 0x47c67c40) Thread: 4988
+12-19 12:02:10.901: D/BRCM_EGL(4988): eglMakeCurrent(NULL) Thread: 4988
+12-19 12:02:10.911: V/ChatByAidlActivity(4988): onDestroy
+12-19 12:02:11.011: D/BRCM_EGL(4988): eglMakeCurrent(0x46aac7f0, 0x47c67c40, 0x47c67c40) Thread: 4988
+12-19 12:02:11.011: D/BRCM_EGL(4988): eglMakeCurrent(NULL) Thread: 4988

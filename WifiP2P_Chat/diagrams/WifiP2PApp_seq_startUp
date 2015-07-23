@@ -1,0 +1,25 @@
+mWifiP2PApp:WifiP2PApp[p] "WifiP2PApp"
+mService:P2PConnectorService[p] "P2PConnectorService"
+/mServiceReceiver:P2PConnectorReceiver "P2PConnectorReceiver"
+/mServiceAdvertiserThread:ServiceAdvertiserThread[tx] "ServiceAdvertiserThread"
+mManager:WifiP2PManager[p] "WifiP2PManager"
+
+[c Setup]
+mService:mServiceReceiver.new
+mServiceReceiver[0,0]:stop
+mService:mServiceAdvertiserThread.new
+mServiceAdvertiserThread:registerService(Provider)
+mServiceAdvertiserThread:stop
+
+mWifiP2PApp:mService.bindService()
+mService:mManager.discoverServices()
+mService:
+mManager:mServiceReceiver.onReceive(DiscoveryStarted)
+mServiceReceiver:mService.updateActionState()
+mServiceReceiver[0,2]:stop
+*2 mManager
+When a service is discovered
+*2
+mManager:mService.onDnsTxtRecordAvailable(params)
+mService:mWifiP2PApp.updateServicesView()
+[/c]

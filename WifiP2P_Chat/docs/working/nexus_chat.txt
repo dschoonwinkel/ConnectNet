@@ -1,0 +1,38 @@
+12-19 11:57:41.105: V/ChatByAidlActivity(4135): onCreate
+12-19 11:57:41.325: V/P2PChatBridge(4135): P2PChatBridge constructor
+12-19 11:57:41.325: V/P2PChatBridge(4135): init
+12-19 11:57:41.335: W/ContextImpl(4135): Implicit intents with startService are not safe: Intent { act=meesters.wifip2p.router.P2PConnectorService } android.content.ContextWrapper.bindService:517 meesters.wifip2p.chat.P2PChatBridge.init:34 meesters.wifip2p.chat.ChatByAidlActivity.onCreate:74 
+12-19 11:57:41.355: V/ChatByAidlActivity(4135): setUpIntentFilter
+12-19 11:57:41.355: V/ChatByAidlActivity(4135): onResume
+12-19 11:57:41.355: V/P2PChatBridge(4135): getStates
+12-19 11:57:41.515: D/libEGL(4135): loaded /system/lib/egl/libEGL_tegra.so
+12-19 11:57:41.545: D/libEGL(4135): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+12-19 11:57:41.575: D/libEGL(4135): loaded /system/lib/egl/libGLESv2_tegra.so
+12-19 11:57:41.625: D/OpenGLRenderer(4135): Enabling debug mode 0
+12-19 11:57:41.705: V/P2PChatBridge(4135): Service connected
+12-19 11:57:41.715: I/P2PChatBridge(4135): gettingStates
+12-19 11:57:41.715: V/WifiP2PChatReceiver(4135): onReceive: P2PConnectorService_Peerdisconnected
+12-19 11:57:41.715: V/ChatByAidlActivity(4135): updateConnState
+12-19 11:57:41.725: V/WifiP2PChatReceiver(4135): onReceive: P2PConnectorService_Peerdisconnected
+12-19 11:57:41.725: V/ChatByAidlActivity(4135): updateConnState
+12-19 11:58:24.345: V/ChatByAidlActivity(4135): onWifiP2PApp
+12-19 11:58:24.345: I/ChatByAidlActivity(4135): Starting activity for result
+12-19 11:58:24.345: V/ChatByAidlActivity(4135): onPause
+12-19 11:58:24.655: W/IInputConnectionWrapper(4135): showStatusIcon on inactive InputConnection
+12-19 11:58:50.655: V/ChatByAidlActivity(4135): onActivityResult
+12-19 11:58:50.655: I/ChatByAidlActivity(4135): Success
+12-19 11:58:50.655: V/P2PChatBridge(4135): getStates
+12-19 11:58:50.655: V/ChatByAidlActivity(4135): onResume
+12-19 11:58:50.665: V/P2PChatBridge(4135): getStates
+12-19 11:58:50.685: V/WifiP2PChatReceiver(4135): onReceive: P2PConnectorService_Peerconnected
+12-19 11:58:50.685: V/ChatByAidlActivity(4135): updateConnState
+12-19 11:58:56.035: V/ChatByAidlActivity(4135): onSendButton
+12-19 11:58:56.035: V/ChatByAidlActivity(4135): sendMessage
+12-19 11:58:56.035: V/P2PChatBridge(4135): sendMessageToPeer
+12-19 11:58:56.035: I/P2PChatBridge(4135): sendMessageToPeerNexus 7: hello
+12-19 11:58:56.045: I/P2PChatBridge(4135): sending message...
+12-19 11:59:13.075: V/ChatByAidlActivity(4135): onSendButton
+12-19 11:59:13.075: V/ChatByAidlActivity(4135): sendMessage
+12-19 11:59:13.075: V/P2PChatBridge(4135): sendMessageToPeer
+12-19 11:59:13.075: I/P2PChatBridge(4135): sendMessageToPeerNexus 7: hello again
+12-19 11:59:13.075: I/P2PChatBridge(4135): sending message...
